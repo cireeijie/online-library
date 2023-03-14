@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8876338ff1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>Online Library</title>
+</head>
+<body>
+    <header class="header flex center">
+        <div class="header-row section-row center">
+            <div class="header-container section-container flex center space-between wrap">
+                <div class="title">
+                    <i class="fa-solid fa-book-bookmark"></i>
+                    <span>Online Library</span>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li class="menu-item">
+                            <a href="/">Home</a></li>
+                        <li class="menu-item">
+                            <a href="#">About</a></li>
+                        <li class="menu-item">
+                            <a href="#">Shop</a></li>
+                        <li class="menu-item">
+                            <a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="search-bar flex center">
+        <div class="search-bar-row section-row flex center">
+            <div class="search-bar-container section-container flex center space-between">
+                <form action="#" class="search-form flex center">
+                    <select name="category" id="category" class="category">
+                        <option selected disabled>Category</option>
+                        <option>Science</option>
+                        <option>Non-Fiction</option>
+                        <option>Educational</option>
+                    </select>
+                    <input type="text" class="search-field" placeholder="">
+                    <input type="submit" value="Search" class="submit-btn">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </form>
+                <div class="user-section">
+                    <div class="user-order">
+                        <div class="cart">
+                            <div class="cart-order">
+                                <a href="#">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <sup class="cart-orders">4</sup>
+                                </a>
+                            </div>
+                            <div class="user-cart">
+                                <span class="summary">SUMMARY</span>
+                                <div class="order-item first">
+                                    <div class="item">
+                                        <span class="item-title">To Kill a Mockingbird</span>
+                                        <span class="item-price">$100.00</span>
+                                    </div>
+                                </div>
+                                <div class="order-item">
+                                    <div class="item">
+                                        <span class="item-title">The Great Gatsby</span>
+                                        <span class="item-price">$100.00</span>
+                                    </div>
+                                </div>
+                                <div class="order-item">
+                                    <div class="item">
+                                        <span class="item-title">George Orwell: 1984</span>
+                                        <span class="item-price">$100.00</span>
+                                    </div>
+                                </div>
+                                <div class="order-item last">
+                                    <div class="item">
+                                        <span class="item-title">Adventures of Huckleberry Finn</span>
+                                        <span class="item-price">$100.00</span>
+                                    </div>
+                                </div>
+                                <div class="cart-total">
+                                    <span>Total</span>
+                                    <span class="total-price">$400.00</span>
+                                </div>
+                                <div class="cart-checkout-btn">
+                                    <a href="checkoutform.html">
+                                        Checkout
+                                        <i class="fa-solid fa-angle-right hover-arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <a href="#">
+                            <i class="fa-solid fa-circle-user"></i>
+                        </a>
+                        <ul class="user-nav">
+                            <li class="user-nav-item first">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="user-nav-item">
+                                <a href="#">Acount</a>
+                            </li>
+                            <li class="user-nav-item">
+                                <a href="#">Settings</a>
+                            </li>
+                            <li class="user-nav-item last">
+                                <a href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Book Cards Start -->
+    <section class="card-section flex center">
+        <div class="card-row section-row flex wrap">
+            <div class="card-container flex flex-column">
+                <div class="image-column flex center">
+                    <img src="assets/img/image1.jpg" alt="">
+                </div>
+                <div class="info-column flex flex-column space-between">
+                    <div class="book-info">
+                        <div class="book">
+                            <div class="book-title flex flex-column">
+                                <div class="price">
+                                    <i class="fa-solid fa-tags"></i>
+                                    <span>$100.00</span>
+                                </div>
+                                <div class="title-buy-btn">
+                                    <h1>To Kill A Mocking Bird</h1>
+                                    <a href="checkoutform.html" class="buy-btn" >
+                                        <i class="fa-solid fa-cart-arrow-down"></i>
+                                        <span>Buy Now</span>
+                                        <i class="fa-solid fa-angle-right hover-arrow"></i>
+                                    </a>  
+                                </div>
+                            </div>
+                            <div class="meta-data">
+                                <a href="#">Novel</a>
+                                <a href="#">Thriller</a>
+                                <a href="#">Fiction</a>
+                            </div>
+                            <div class="book-author flex align-center">
+                                <div class="author-img">
+                                    <i class="fa-solid fa-circle-user"></i>
+                                    <!-- <img src="assets/img/author.png" alt=""> -->
+                                </div>
+                                <div class="author-name">
+                                    Harper Lee
+                                </div>
+                            </div>
+                            <div class="date-published">
+                                Date Published: July 11, 1960
+                            </div>
+                            <div class="book-desc">
+                                To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and was instantly successful. In the United States, ...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-action-btns flex justify-center">
+                        <div class="btn">
+                            <a href="#"><i class="fa-regular fa-comment"></i></a> 
+                        </div>
+                        <div class="btn">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a> 
+                        </div>
+                        <div class="btn">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a> 
+                        </div>
+                        <div class="btn">
+                            <a href="#"><i class="fa-regular fa-share-from-square"></i></i></a> 
+                        </div>
+                    </div>
+                </div> 
+                <div class="open-link">
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="card-container flex flex-column">
+                <div class="image-column flex center">
+                    <img src="assets/img/image2.jpg" alt="">
+                </div>
+                <div class="info-column flex flex-column space-between">
+                    <div class="book-info">
+                        <div class="book">
+                            <div class="book-title flex flex-column">
+                                <div class="price">
+                                    <i class="fa-solid fa-tags"></i>
+                                    <span>$100.00</span>
+                                </div>
+                                <div class="title-buy-btn">
+                                    <h1>The Great Gatsby</h1>
+                                    <a href="checkoutform.html" class="buy-btn" >
+                                        <i class="fa-solid fa-cart-arrow-down"></i>
+                                        <span>Buy Now</span>
+                                        <i class="fa-solid fa-angle-right hover-arrow"></i>
+                                    </a>  
+                                </div>
+                            </div>
+                            <div class="meta-data">
+                                <a href="#">Novel</a>
+                                <a href="#">Fiction</a>
+                                <a href="#">Tragedy</a>
+                            </div>
+                            <div class="book-author flex align-center">
+                                <div class="author-img">
+                                    <i class="fa-solid fa-circle-user"></i>
+                                    <!-- <img src="assets/img/author.png" alt=""> -->
+                                </div>
+                                <div class="author-name">
+                                    F. Scott Fitzgerald
+                                </div>
+                            </div>
+                            <div class="date-published">
+                                Date Published: April 10, 1925
+                            </div>
+                            <div class="book-desc">
+                                The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts ...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-action-btns flex justify-center">
+                        <div class="btn">
+                            <a href="#"><i class="fa-regular fa-comment"></i></a> 
+                        </div>
+                        <div class="btn">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a> 
+                        </div>
+                        <div class="btn">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a> 
+                        </div>
+                        <div class="btn">
+                            <a href="#"><i class="fa-regular fa-share-from-square"></i></i></a> 
+                        </div>
+                    </div>
+                </div> 
+                <div class="open-link">
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="card-container flex flex-column">
+                <div class="image-column flex center">
+                    <img src="assets/img/image3.jpg" alt="">
+                </div>
+                <div class="info-column flex flex-column space-between">
+                    <div class="book-info">
+                        <div class="book">
+                            <div class="book-title flex flex-column">
+                                <div class="price">
+                                    <i class="fa-solid fa-tags"></i>
+                                    <span>$100.00</span>
+                                </div>
+                                <div class="title-buy-btn">
+                                    <h1>George Orwell: 1984</h1>
+                                    <a href="checkoutform.html" class="buy-btn" >
+                                        <i class="fa-solid fa-cart-arrow-down"></i>
+                                        <span>Buy Now</span>
+                                        <i class="fa-solid fa-angle-right hover-arrow"></i>
+                                    </a>  
+                                </div>
+                            </div>
+                            <div class="meta-data">
+                                <a href="#">Science Fiction</a>
+                                <a href="#">Political fiction</a>
+                            </div>
+                            <div class="book-author flex align-center">
+                                <div class="author-img">
+                                    <i class="fa-solid fa-circle-user"></i>
+                                    <!-- <img src="assets/img/author.png" alt=""> -->
+                                </div>
+                                <div class="author-name">
+                                    George Orwell
+                                </div>
+                            </div>
+                            <div class="date-published">
+                                Date Published: June 9, 1996
+                            </div>
+                            <div class="book-desc">
+                                Nineteen Eighty-Four (also published as 1984) is a dystopian social science fiction novel and cautionary tale by English writer George Orwell.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-action-btns flex justify-center">
+                        <div class="btn">
+                            <a href="#"><i class="fa-regular fa-comment"></i></a> 
+                        </div>
+                        <div class="btn">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a> 
+                        </div>
+                        <div class="btn">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a> 
+                        </div>
+                        <div class="btn">
+                            <a href="#"><i class="fa-regular fa-share-from-square"></i></i></a> 
+                        </div>
+                    </div>
+                </div> 
+                <div class="open-link">
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="card-container flex flex-column">
+                <div class="image-column flex center">
+                    <img src="assets/img/image4.jpg" alt="">
+                </div>
+                <div class="info-column flex flex-column space-between">
+                    <div class="book-info">
+                        <div class="book">
+                            <div class="book-title flex flex-column">
+                                <div class="price">
+                                    <i class="fa-solid fa-tags"></i>
+                                    <span>$100.00</span>
+                                </div>
+                                <div class="title-buy-btn">
+                                    <h1>Adventures of Huckleberry Finn</h1>
+                                    <a href="checkoutform.html" class="buy-btn" >
+                                        <i class="fa-solid fa-cart-arrow-down"></i>
+                                        <span>Buy Now</span>
+                                        <i class="fa-solid fa-angle-right hover-arrow"></i>
+                                    </a>  
+                                </div>
+                            </div>
+                            <div class="meta-data">
+                                <a href="#">Novel</a>
+                                <a href="#">Satire</a>
+                                <a href="#">Humor</a>
+                            </div>
+                            <div class="book-author flex align-center">
+                                <div class="author-img">
+                                    <i class="fa-solid fa-circle-user"></i>
+                                    <!-- <img src="assets/img/author.png" alt=""> -->
+                                </div>
+                                <div class="author-name">
+                                    Mark Twain
+                                </div>
+                            </div>
+                            <div class="date-published">
+                                Date Published: December 10, 1884
+                            </div>
+                            <div class="book-desc">
+                                Adventures of Huckleberry Finn is a novel by American author Mark Twain, which was first published in the United Kingdom in December 1884 ...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-action-btns flex justify-center">
+                        <div class="btn">
+                            <a href="#"><i class="fa-regular fa-comment"></i></a> 
+                        </div>
+                        <div class="btn">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a> 
+                        </div>
+                        <div class="btn">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a> 
+                        </div>
+                        <div class="btn">
+                            <a href="#"><i class="fa-regular fa-share-from-square"></i></i></a> 
+                        </div>
+                    </div>
+                </div> 
+                <div class="open-link">
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Section: Book Cards End -->
+
+    <section class="checkout-section flex center">
+        <div class="checkout-row">
+            <div class="checkout-container">
+                <a class="bottom-checkout-btn" href="checkoutform.html">
+                    <span>Proceed to Checkout</span>
+                    <i class="fa-solid fa-angle-right hover-arrow"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer flex center">
+        <div class="footer-row section-row center">
+            <div class="footer-container section-container flex center flex-column space-between wrap">
+                <div class="title">
+                    <span>Copyright© | Online Library 2023</span>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

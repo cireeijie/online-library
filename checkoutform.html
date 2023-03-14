@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8876338ff1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Checkout Form</title>
+</head>
+<body>
+    <header class="header flex center">
+        <div class="header-row section-row center">
+            <div class="header-container section-container flex center space-between wrap">
+                <div class="title">
+                    <i class="fa-solid fa-book-bookmark"></i>
+                    <span>Online Library</span>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li class="menu-item">
+                            <a href="/">Home</a></li>
+                        <li class="menu-item">
+                            <a href="#">About</a></li>
+                        <li class="menu-item">
+                            <a href="#">Shop</a></li>
+                        <li class="menu-item">
+                            <a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="search-bar flex center">
+        <div class="search-bar-row section-row flex center">
+            <div class="search-bar-container section-container flex center space-between">
+                <form action="#" class="search-form flex center">
+                    <select name="category" id="category" class="category">
+                        <option selected disabled>Category</option>
+                        <option>Science</option>
+                        <option>Non-Fiction</option>
+                        <option>Educational</option>
+                    </select>
+                    <input type="text" class="search-field" placeholder="">
+                    <input type="submit" value="Search" class="submit-btn">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </form>
+                <div class="user-section">
+                    <div class="user-order">
+                        <div class="cart">
+                            <div class="cart-order">
+                                <a href="#">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <sup class="cart-orders">4</sup>
+                                </a>
+                            </div>
+                            <div class="user-cart">
+                                <span class="summary">SUMMARY</span>
+                                <div class="order-item first">
+                                    <div class="item">
+                                        <span class="item-title">To Kill a Mockingbird</span>
+                                        <span class="item-price">$100.00</span>
+                                    </div>
+                                </div>
+                                <div class="order-item">
+                                    <div class="item">
+                                        <span class="item-title">The Great Gatsby</span>
+                                        <span class="item-price">$100.00</span>
+                                    </div>
+                                </div>
+                                <div class="order-item">
+                                    <div class="item">
+                                        <span class="item-title">George Orwell: 1984</span>
+                                        <span class="item-price">$100.00</span>
+                                    </div>
+                                </div>
+                                <div class="order-item last">
+                                    <div class="item">
+                                        <span class="item-title">Adventures of Huckleberry Finn</span>
+                                        <span class="item-price">$100.00</span>
+                                    </div>
+                                </div>
+                                <div class="cart-total">
+                                    <span>Total</span>
+                                    <span class="total-price">$400.00</span>
+                                </div>
+                                <div class="cart-checkout-btn">
+                                    <a href="checkoutform.html">
+                                        Checkout
+                                        <i class="fa-solid fa-angle-right hover-arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <a href="#">
+                            <i class="fa-solid fa-circle-user"></i>
+                        </a>
+                        <ul class="user-nav">
+                            <li class="user-nav-item first">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="user-nav-item">
+                                <a href="#">Acount</a>
+                            </li>
+                            <li class="user-nav-item">
+                                <a href="#">Settings</a>
+                            </li>
+                            <li class="user-nav-item last">
+                                <a href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </section>
+    <section class="checkout-form-section">
+        <div class="checkout-form-row">
+            <div class="summary-container">
+                <div class="summary-cart">
+                    <span class="summary">SUMMARY</span>
+                    <div class="order-item first">
+                        <div class="item">
+                            <span class="item-title">To Kill a Mockingbird</span>
+                            <span class="item-price">$100.00</span>
+                        </div>
+                    </div>
+                    <div class="order-item">
+                        <div class="item">
+                            <span class="item-title">The Great Gatsby</span>
+                            <span class="item-price">$100.00</span>
+                        </div>
+                    </div>
+                    <div class="order-item">
+                        <div class="item">
+                            <span class="item-title">George Orwell: 1984</span>
+                            <span class="item-price">$100.00</span>
+                        </div>
+                    </div>
+                    <div class="order-item last">
+                        <div class="item">
+                            <span class="item-title">Adventures of Huckleberry Finn</span>
+                            <span class="item-price">$100.00</span>
+                        </div>
+                    </div>
+                    <div class="cart-total">
+                        <span>Total</span>
+                        <span class="total-price">$400.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="checkout-form-container">
+                <form action="#" class="checkout-form">
+                    <div class="title">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <span>Checkout Form</span>
+                    </div>
+                    <div class="name first">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="address">
+                        <label for="address">Address</label>
+                        <input type="text" name="address" id="address">
+                    </div>
+                    <div class="region">
+                        <label for="region">Region</label>
+                        <select name="region" id="region">
+                            <option selected disabled>Select Region</option>
+                            <option>ARMM</option>
+                            <option>CAR</option>
+                            <option>NCR</option>
+                            <option>Region 1</option>
+                            <option>Region 2</option>
+                            <option>Region 3</option>
+                            <option>Region 4A</option>
+                            <option>Region 4B</option>
+                            <option>Region 5</option>
+                            <option>Region 6</option>
+                            <option>Region 7</option>
+                            <option>Region 8</option>
+                            <option>Region 9</option>
+                            <option>Region 10</option>
+                            <option>Region 11</option>
+                            <option>Region 12</option>
+                            <option>Region 13</option>
+                        </select>
+                    </div>
+                    <div class="contact">
+                        <label for="contact">Contact Number</label>
+                        <input type="number" name="contact" id="contact">
+                    </div>
+                    <div class="payment-method last">
+                        <span>Payment Method</span>
+                        <div class="radio-btns">
+                            <label><input type="radio" id="paymentMethod" name="paymentMethod" value="Cash on Delivery">Cash on Delivery</label>
+                            <label><input type="radio" id="paymentMethod" name="paymentMethod" value="Master Card">Master Card</label>
+                            <label><input type="radio" id="paymentMethod" name="paymentMethod" value="Visa">Visa</label>
+                            <label><input type="radio" id="paymentMethod" name="paymentMethod" value="American Express">American Express</label>
+                        </div>
+                    </div>
+                    <div class="form-btns">
+                        <div class="back-btn">
+                            <a href="index.html" class="back">Go Back</a>
+                        </div>
+                        <div class="place-order-btn">
+                            <a href="#" class="order">
+                                <span>Place Order</span>
+                                <i class="fa-solid fa-angle-right hover-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer flex center">
+        <div class="footer-row section-row center">
+            <div class="footer-container section-container flex center flex-column space-between wrap">
+                <div class="title">
+                    <span>Copyright© | Online Library 2023</span>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
